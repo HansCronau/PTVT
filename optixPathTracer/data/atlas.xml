@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by vtTileCreator, Copyright 2017 Hans Cronau
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files(the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and / or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions :
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.-->
+<!--Format in compliance with TexturePacker by CodeAndWeb GmbH:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="atlas.png" width="8192" height="8192">
+    <sprite n="background.tga" x="4" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="chain_texture.tga" x="1028" y="4" w="248" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="lion.tga" x="1284" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="spnza_bricks_a_diff.tga" x="2308" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_arch_diff.tga" x="3332" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_ceiling_a_diff.tga" x="4356" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_column_a_diff.tga" x="5380" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_column_b_diff.tga" x="6404" y="4" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_column_c_diff.tga" x="4" y="1028" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_curtain_blue_diff.tga" x="1028" y="1028" w="2040" h="2040" pX="0.5" pY="0.5" />
+    <sprite n="sponza_curtain_diff.tga" x="3076" y="1028" w="2040" h="2040" pX="0.5" pY="0.5" />
+    <sprite n="sponza_curtain_green_diff.tga" x="5124" y="1028" w="2040" h="2040" pX="0.5" pY="0.5" />
+    <sprite n="sponza_details_diff.tga" x="4" y="2052" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_fabric_blue_diff.tga" x="4" y="3076" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_fabric_diff.tga" x="4" y="4100" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_fabric_green_diff.tga" x="4" y="5124" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_flagpole_diff.tga" x="4" y="6148" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_floor_a_diff.tga" x="4" y="7172" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_roof_diff.tga" x="7172" y="1028" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="sponza_thorn_diff.tga" x="7428" y="4" w="504" h="504" pX="0.5" pY="0.5" />
+    <sprite n="vase_dif.tga" x="7172" y="2052" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="vase_hanging.tga" x="1028" y="3076" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="vase_plant.tga" x="1028" y="4100" w="1016" h="1016" pX="0.5" pY="0.5" />
+    <sprite n="vase_round.tga" x="1028" y="5124" w="1016" h="1016" pX="0.5" pY="0.5" />
+</TextureAtlas>
